@@ -19,6 +19,7 @@ let localStorage = {
     enableUnblockNeteaseMusic: true,
     automaticallyCacheSongs: true,
     cacheLimit: 8192,
+    enableReversedMode: false,
     nyancatStyle: false,
     showLyricsTranslation: true,
     lyricsBackground: true,
@@ -26,6 +27,8 @@ let localStorage = {
     enableDiscordRichPresence: false,
     enableGlobalShortcut: true,
     showLibraryDefault: false,
+    subTitleDefault: false,
+    linuxEnableCustomTitlebar: false,
     enabledPlaylistCategories,
     proxyConfig: {
       protocol: 'noProxy',
